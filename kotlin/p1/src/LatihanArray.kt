@@ -1,0 +1,15 @@
+fun main()
+{
+    val hari : Array<String> = arrayOf("Senin", "Selasa","Rabu", "Kamis","Jumat","Sabtu","Minggu")
+    println("=======================================")
+    println("Jumlah Hari : ${hari.size}")
+    println("Hari Pertama : ${hari.get(0)}")
+    println("Hari Kedua : ${hari.get(1)}")
+    println("Hari Ketiga : ${hari.get(2)}")
+    println("Hari Keempat : ${hari.get(3)}")
+    println("Hari Kelima : ${hari.get(4)}")
+    println("Hari Keenam : ${hari.get(5)}")
+    println("Hari Ketujuh : ${hari.get(6)}")
+    hari.set(4,"Jum'at Barokah")
+    println("Hari Kelima : ${hari.get(4)}")
+}
